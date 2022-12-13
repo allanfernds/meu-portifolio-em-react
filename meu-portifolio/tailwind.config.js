@@ -5,8 +5,7 @@ module.exports = {
     extend: {
       extend: {
         fontFamily: {
-          'roboto': ['Roboto', 'sans-serif'],
-          'icones': ['Icones']
+          'comforta': ['Comforta', 'sans-serif'],
         },
     },
   },
