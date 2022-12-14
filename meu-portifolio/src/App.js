@@ -1,9 +1,9 @@
-import About from "./componentes/About";
-import Header from "./componentes/Header";
-import Hero from './componentes/Hero'
+import About from "./SkillsSection.jsx/About";
+import Header from "./SkillsSection.jsx/Header";
+import Hero from './SkillsSection.jsx/Hero'
 function App() {
   return (
-    <div className="App">
+    <div className="bg-black">
       <Header />
       <Hero />
       <About />
