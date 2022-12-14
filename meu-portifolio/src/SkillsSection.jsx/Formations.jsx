@@ -5,12 +5,12 @@ export default class Formations extends Component {
   render() {
     return (
       <div className="flex justify-center bg-gradient-to-b from-black via-black to-white">
-        <section className="lg:max-w-5xl flex-col justify-center content-center">
+        <section className="lg:max-w-4xl flex-col justify-center content-center">
           <h2 class="text-center pt-5 text-2xl font-bold text-white md:text-4xl">
             Formação
           </h2>
 
-          <div class="p-8 pt-0  md:flex justify-around items-center">
+          <div class="p-1 pt-0  md:flex justify-around items-center">
             <FormationCard
               instituicao="Trybe"
               curso="Desenvolvimento Web"

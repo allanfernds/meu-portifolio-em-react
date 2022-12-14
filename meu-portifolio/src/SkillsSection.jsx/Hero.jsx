@@ -1,6 +1,6 @@
 function Index() {
   return (
-    <div className="bg-black pb-12 overflow-y-hidden">
+    <div className="bg-black py-20 overflow-y-hidden">
       {/* Code block starts */}
       <dh-component>
         <div className="bg-black">
@@ -11,15 +11,12 @@ function Index() {
                 <span className="text-indigo-600"> Front-End</span>
               </h1>
               <p className="mt-6 sm:mt-6 lg:w-10/12 text-gray-300 font-normal text-center text-sm sm:text-lg">
-                A professonal website drives sales. Create a beautiful website
-                to impress and engage new customers and establish your business
-                online{" "}
+                Meu objetivo é melhorar o mundo através da tecnologia
               </p>
             </div>
           </div>
         </div>
       </dh-component>
-      {/* Code block ends */}
     </div>
   );
 }
