@@ -18,16 +18,11 @@ export default class About extends Component {
                   Sobre mim
                 </h2>
                 <p class="mt-6 text-gray-200">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                  omnis voluptatem accusantium nemo perspiciatis delectus atque
-                  autem! Voluptatum tenetur beatae unde aperiam, repellat
-                  expedita consequatur! Officiis id consequatur atque
-                  doloremque!
+                Me chamo Alan, natural de Feira de Santana BA, tenho aproximadamente 4 anos de experiencia em programação. Dou aulas particulares de lógica de programação com ênfase em Python e JavaScript e atuo como desenvolvedor WEB Freelancer.
                 </p>
                 <p class="mt-4 text-gray-200">
-                  Nobis minus voluptatibus pariatur dignissimos libero quaerat
-                  iure expedita at? Asperiores nemo possimus nesciunt dicta
-                  veniam aspernatur quam mollitia.
+                Atualmente, sou um estudante de desenvolvimento web full-stack na Trybe. Minhas paixões são: jogos onlines, codar, criar enigmas e ler!
+                Tenho trabalhado com JavaScript, React, Node, CSS, HTML e Python.
                 </p>
               </div>
             </div>
