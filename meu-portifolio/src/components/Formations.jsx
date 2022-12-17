@@ -4,10 +4,10 @@ import FormationCard from "./FormationCard";
 export default class Formations extends Component {
   render() {
     return (
-      <div className="flex justify-center bg-gradient-to-b from-black via-black to-white">
+      <div id="formation" className="flex justify-center ">
         <section className="lg:max-w-4xl flex-col justify-center content-center">
-          <h2 class="text-center pt-5 text-2xl font-bold text-white md:text-4xl">
-            Formação
+          <h2 class="text-center pt-5 text-2xl font-bold text-gray-900y md:text-4xl">
+            FORMAÇÃO
           </h2>
 
           <div class="p-1 pt-0  md:flex justify-around items-center">

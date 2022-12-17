@@ -9,11 +9,11 @@ function Card3({
   link,
 }) {
   return (
-    <div className="rounded-lg p-6 shadow-sm bg-white shadow-indigo-500/40 hover:shadow-xl hover:shadow-blue-500/40">
+    <div className="rounded-lg p-6 shadow-sm bg-slate-100 shadow-indigo-500/40 hover:shadow-xl hover:shadow-blue-500/40">
       <div className="rounded-lg">
         <a target="blank" href={link}>
           <img
-            className="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto"
+            className=" w-full cursor-pointer  rounded-lg h-auto"
             src={thumbnailSrc}
             alt={thumbnailAlt}
           />
@@ -48,7 +48,7 @@ function ProjectCard() {
         heading="Bino Móveis"
         description="Landing-Page feita para uma industria de móveis planejados"
         thumbnailSrc="https://github.com/allanfernds/bino-moveis/raw/main/img/layout.png"
-        link="https://github.com/allanfernds/bino-moveis"
+        link="https://allanfernds.github.io/bino-moveis/"
       />
       <Card3
         heading="Dreams Store"

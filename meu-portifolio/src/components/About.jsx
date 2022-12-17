@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import alan_fernandes from "../assets/images/alan_fernandes.png";
 import Formations from "./Formations";
+import blackbar from "../assets/images/blackbar.png";
 
 export default class About extends Component {
   render() {
     return (
       <>
-        <div class="bg-black py-16 flex justify-center">
+        <div id="about" class="bg-black py-16 flex justify-center">
           <div class="container px-6 text-gray-600 md:px-12 xl:px-6">
             <div class="space-y-6 md:flex md:gap-6 md:space-y-0 lg:items-center lg:gap-12">
               <div class="md:5/12 lg:w-5/12">
@@ -32,6 +33,7 @@ export default class About extends Component {
             </div>
           </div>
         </div>
+        <img src={blackbar} alt="barra preta" width={"100%"} />
         <Formations />
       </>
     );

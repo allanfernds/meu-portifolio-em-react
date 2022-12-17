@@ -5,17 +5,16 @@ import tailwindIcon from "../assets/images/tailwindIcon.png";
 export default class SkillsSection extends Component {
   render() {
     return (
-      <div className="mb-16">
+      <div  id="skills"  className="mb-16">
         <div className="bg-white ">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <h3 className="text-center pt-5 text-2xl font-bold text-black md:text-4xl">
-              Skills
+            <h3 className="text-center pt-5 text-2xl font-bold text-gray-900 md:text-4xl">
+              SKILLS
             </h3>
           </div>
         </div>
-        <div className="relative px-4 sm:px-0">
-          <div className="absolute inset-0 bg-white h-1/2" />
-          <div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
+        <div className="px-4 sm:px-0">
+          <div className="grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
             <SkillsCard
               stack="JavaScript"
               icon="https://img.icons8.com/ios/512/javascript.png"
