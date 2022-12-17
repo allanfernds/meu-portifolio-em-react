@@ -6,11 +6,11 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-black text-slate-50 fixed top-0 left-0 ">
+    <nav id="header" className="w-full bg-black text-slate-50 fixed top-0 left-0 ">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="javascript:void(0)">
+            <a href="#hero">
               <h2 className="text-2xl font-bold">
                 <span className="text-blue-600">{"<"}</span>
                 Alan Fernandes
