@@ -4,7 +4,7 @@ import dreamsstore from "../assets/images/dreamsstore.png";
 
 function StackSpan(props) {
   return (
-    <span className="bg-indigo-600 px-1 mr-1 mt-2 inline-block text-white text-xs rounded-sm">{props.content}</span>
+    <span className="bg-gray-700 px-1 mr-1 mt-2 inline-block font-medium text-white text-xs rounded-sm">{props.content}</span>
   )
 }
 
