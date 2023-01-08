@@ -18,7 +18,7 @@ export default class About extends Component {
                   Sobre mim
                 </h2>
                 <p class="mt-6 text-gray-200">
-                Me chamo Alan, natural de Feira de Santana BA, tenho aproximadamente 4 anos de experiencia em programação. Dou aulas particulares de lógica de programação com ênfase em Python e JavaScript e atuo como desenvolvedor WEB Freelancer.
+                Sou natural de Feira de Santana BA, tenho aproximadamente 4 anos de experiencia em programação. Dou aulas particulares de lógica de programação com ênfase em Python e JavaScript e atuo como desenvolvedor WEB Freelancer.
                 </p>
                 <p class="mt-4 text-gray-200">
                 Atualmente, sou um estudante de desenvolvimento web full-stack na Trybe. Minhas paixões são: jogos onlines, codar, criar enigmas e ler!
