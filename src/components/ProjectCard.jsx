@@ -75,7 +75,7 @@ function ProjectCard() {
         heading="Twenews Bot"
         description="Um chatbot que busca notícias do Twitter e envia para o Telegram"
         thumbnailSrc={twenewsbot}
-        link="https://www.dreamsstorebr.com.br/"
+        link="https://t.me/TweNewsBot"
         stack={["Python", "Twitter API", "Telegram API"]}
       />
     </div>
