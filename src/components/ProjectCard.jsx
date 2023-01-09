@@ -1,13 +1,14 @@
 import cvmaker from "../assets/images/cvmaker.png";
 import dreamsstore from "../assets/images/dreamsstore.png";
-
+import twenewsbot from "../assets/images/twenews.png";
 
 function StackSpan(props) {
   return (
-    <span className="bg-gray-700 px-1 mr-1 mt-2 inline-block font-medium text-white text-xs rounded-sm">{props.content}</span>
-  )
+    <span className="bg-gray-700 px-1 mr-1 mt-2 inline-block font-medium text-white text-xs rounded-sm">
+      {props.content}
+    </span>
+  );
 }
-
 
 function Card3({
   heading,
@@ -34,9 +35,7 @@ function Card3({
       <p className="font-normal text-gray-500 cursor-pointer text-sm duration-300 transition mt-2">
         {description}
       </p>
-      {
-        stack ? stack.map((item) => <StackSpan content={item}/>)  : ''
-      }
+      {stack ? stack.map((item) => <StackSpan content={item} />) : ""}
     </div>
   );
 }
@@ -71,6 +70,13 @@ function ProjectCard() {
         thumbnailSrc={dreamsstore}
         link="https://www.dreamsstorebr.com.br/"
         stack={["JavaScript", "HTML5", "CSS3"]}
+      />
+      <Card3
+        heading="Twenews Bot"
+        description="Um chatbot que busca notícias do Twitter e envia para o Telegram"
+        thumbnailSrc={twenewsbot}
+        link="https://www.dreamsstorebr.com.br/"
+        stack={["Python", "Twitter API", "Telegram API"]}
       />
     </div>
   );
