@@ -10,7 +10,7 @@ export default class ProjectsSection extends Component {
             PROJETOS
           </h2>
 
-          <div class="p-1 pt-0  md:flex justify-around items-center">
+          <div class="p-1 pt-0 md:flex justify-around items-center">
             <ProjectCard />
           </div>
         </section>
