@@ -36,7 +36,9 @@ function Card3({
       <p className="font-normal text-gray-500 cursor-pointer text-sm duration-300 transition mt-2">
         {description}
       </p>
-      {stack ? stack.map((item) => <StackSpan content={item} />) : ""}
+      {stack
+        ? stack.map((item, index) => <StackSpan key={index} content={item} />)
+        : ""}
     </div>
   );
 }

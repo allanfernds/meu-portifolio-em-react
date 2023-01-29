@@ -6,11 +6,11 @@ export default class ProjectsSection extends Component {
     return (
       <div id="projects" className="flex justify-center bg-white">
         <section className="lg:max-w-4xl flex-col justify-center content-center">
-          <h2 class="text-center pt-5 text-2xl font-bold text-gray-800 md:text-4xl">
+          <h2 className="text-center pt-5 text-2xl font-bold text-gray-800 md:text-4xl">
             PROJETOS
           </h2>
 
-          <div class="p-1 pt-0 md:flex justify-around items-center">
+          <div className="p-1 pt-0 md:flex justify-around items-center">
             <ProjectCard />
           </div>
         </section>
