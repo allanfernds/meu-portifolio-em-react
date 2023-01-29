@@ -6,11 +6,11 @@ export default class Formations extends Component {
     return (
       <div id="formation" className="flex justify-center ">
         <section className="lg:max-w-4xl flex-col justify-center content-center">
-          <h2 class="text-center pt-5 text-2xl font-bold text-gray-900y md:text-4xl">
+          <h2 className="underline decoration-blue-500 text-center pt-5 text-2xl font-bold text-gray-900y md:text-4xl">
             FORMAÇÃO
           </h2>
 
-          <div class="p-1 pt-0  md:flex justify-around items-center">
+          <div className="p-1 pt-0  md:flex justify-around items-center">
             <FormationCard
               instituicao="Trybe"
               curso="Desenvolvimento Web"
