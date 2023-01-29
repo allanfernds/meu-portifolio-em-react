@@ -14,20 +14,32 @@ export default class About extends Component {
                 <img src={alan_fernandes} alt="Alan Fernandes" loading="lazy" />
               </div>
               <div className="md:7/12 lg:w-6/12">
-                <h2 className="text-2xl font-bold text-white md:text-4xl">
-                  Sobre mim
+                <h2 className="underline decoration-blue-500 text-2xl font-bold text-white md:text-4xl">
+                  SOBRE MIM
                 </h2>
                 <p className="mt-6 text-gray-200">
-                  Sou natural de Feira de Santana BA, tenho aproximadamente 4
-                  anos de experiencia em programação. Dou aulas particulares de
-                  lógica de programação com ênfase em Python e JavaScript e atuo
-                  como desenvolvedor WEB Freelancer.
+                  Eu sou natural de Feira de Santana, Bahia, e tenho cerca de 4
+                  anos de experiência em programação. Além de atuar como
+                  desenvolvedor web freelancer, também dou aulas particulares de
+                  lógica de programação, com ênfase em Python e JavaScript.
+                  Atualmente, sou estudante de desenvolvimento web full-stack na
+                  Trybe.
                 </p>
                 <p className="mt-4 text-gray-200">
-                  Atualmente, sou um estudante de desenvolvimento web full-stack
-                  na Trybe. Minhas paixões são: jogos onlines, codar, criar
-                  enigmas e ler! Tenho trabalhado com JavaScript, React, Node,
-                  CSS, HTML e Python.
+                  Minhas paixões incluem jogos online, codificação, criação de
+                  enigmas e leitura. Tenho trabalhado com JavaScript, React,
+                  Node, CSS, HTML e Python. O interesse por tecnologia começou
+                  por um erro que tive quando tentei jogar Minecraft em 2013.
+                  Esse erro me levou a aprender habilidades valiosas como
+                  pesquisar soluções, entender e solucionar erros, e
+                  compartilhar soluções de forma clara.
+                </p>
+                <p className="mt-4 text-gray-200">
+                  Desde então, erros sempre foram bem-vindos na minha jornada
+                  como desenvolvedor, pois eles me permitem aprender e crescer
+                  continuamente. Por mais que eu busque ser um criador de
+                  soluções, sempre encaro os erros como uma oportunidade única
+                  de aprendizado.
                 </p>
               </div>
             </div>

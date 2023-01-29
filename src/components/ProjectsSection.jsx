@@ -6,7 +6,7 @@ export default class ProjectsSection extends Component {
     return (
       <div id="projects" className="flex justify-center bg-white">
         <section className="lg:max-w-4xl flex-col justify-center content-center">
-          <h2 className="text-center pt-5 text-2xl font-bold text-gray-800 md:text-4xl">
+          <h2 className="underline decoration-blue-500 text-center pt-5 text-2xl font-bold text-gray-800 md:text-4xl">
             PROJETOS
           </h2>
 

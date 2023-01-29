@@ -8,7 +8,7 @@ export default class SkillsSection extends Component {
       <div id="skills" className="mb-16">
         <div className="bg-white ">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <h3 className="text-center pt-5 text-2xl font-bold text-gray-900 md:text-4xl">
+            <h3 className="underline decoration-blue-500 text-center pt-5 text-2xl font-bold text-gray-900 md:text-4xl">
               SKILLS
             </h3>
           </div>

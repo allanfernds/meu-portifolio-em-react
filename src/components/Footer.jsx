@@ -8,7 +8,7 @@ export default class Footer extends Component {
         id="contact"
         className="bg-black py-10 flex flex-col justify-center items-center content-center mt-14"
       >
-        <h2 className="text-center mb-10 text-2xl font-bold text-white md:text-4xl">
+        <h2 className="underline decoration-blue-500 text-center mb-10 text-2xl font-bold text-white md:text-4xl">
           CONTATO
         </h2>
         <FooterCard />

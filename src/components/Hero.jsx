@@ -13,7 +13,7 @@ function Index() {
                   Front-End
                 </p>
               </h1>
-              <p className="mt-6 text-gray-300 text-center font-serif text-xl">
+              <p className="mt-6 text-gray-300 text-center  text-xl">
                 Meu objetivo é melhorar o mundo através da tecnologia
               </p>
             </div>
