@@ -5,7 +5,7 @@ import tailwindIcon from "../assets/images/tailwindIcon.png";
 export default class SkillsSection extends Component {
   render() {
     return (
-      <div  id="skills"  className="mb-16">
+      <div id="skills" className="mb-16">
         <div className="bg-white ">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <h3 className="text-center pt-5 text-2xl font-bold text-gray-900 md:text-4xl">
@@ -47,6 +47,18 @@ export default class SkillsSection extends Component {
             <SkillsCard
               stack="Git"
               icon="https://img.icons8.com/windows/512/git.png"
+            />
+            <SkillsCard
+              stack="Redux"
+              icon="https://img.icons8.com/material-outlined/384/redux.png"
+            />
+            <SkillsCard
+              stack="Firebase"
+              icon="https://img.icons8.com/external-tal-revivo-light-tal-revivo/192/external-firebase-a-googles-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-logo-light-tal-revivo.png"
+            />
+            <SkillsCard
+              stack="Figma"
+              icon="https://img.icons8.com/ios/300/figma--v1.png"
             />
           </div>
         </div>
