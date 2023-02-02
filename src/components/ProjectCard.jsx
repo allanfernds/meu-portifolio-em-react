@@ -2,6 +2,7 @@ import cvmaker from "../assets/images/cvmaker.png";
 import dreamsstore from "../assets/images/dreamsstore.png";
 import twenewsbot from "../assets/images/twenews.png";
 import meucelularusado from "../assets/images/meucelularusado.png";
+import geradorDeCertificado from "../assets/images/geradorDeCertificado.png"
 
 function StackSpan(props) {
   return (
@@ -87,6 +88,13 @@ function ProjectCard() {
         thumbnailSrc={meucelularusado}
         link="https://meucelularusado.com.br/"
         stack={["React", "Tailwind", "Firebase"]}
+      />
+      <Card3
+        heading="Gerador de Certificados"
+        description="Esse é um script em Python que lê uma planilha de Excel com uma lista de nomes e gera certificados para cada nome"
+        thumbnailSrc={geradorDeCertificado}
+        link="https://github.com/allanfernds/gerador-de-certificados"
+        stack={["Python", "Pillow", "Pandas"]}
       />
     </div>
   );
