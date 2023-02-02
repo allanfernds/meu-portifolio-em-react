@@ -6,7 +6,10 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav id="header" className="w-full bg-black text-slate-50 fixed top-0 left-0 ">
+    <nav
+      id="header"
+      className="w-full bg-black text-slate-50 fixed top-0 left-0 "
+    >
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -67,6 +70,9 @@ export default function NavBar() {
               </li>
               <li className="text-gray-500 hover:text-blue-600">
                 <a href="#formation">Formação</a>
+              </li>
+              <li className="text-gray-500 hover:text-blue-600">
+                <a href="#articles">Artigos</a>
               </li>
               <li className="text-gray-500 hover:text-blue-600">
                 <a href="#skills">Skills</a>
