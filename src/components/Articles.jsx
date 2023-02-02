@@ -5,7 +5,7 @@ export default class Articles extends Component {
   render() {
     return (
       <>
-        <div id="articles" className="mt-20 flex justify-center ">
+        <div id="articles" className="p-6 mt-20 flex justify-center ">
           <section className="lg:max-w-4xl flex-col justify-center content-center">
             <h2 className="underline decoration-blue-500 text-center pt-5 text-2xl font-bold text-gray-900y md:text-4xl">
               ARTIGOS
