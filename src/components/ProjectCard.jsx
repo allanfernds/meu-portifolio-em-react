@@ -1,8 +1,7 @@
 import cvmaker from "../assets/images/cvmaker.png";
-import dreamsstore from "../assets/images/dreamsstore.png";
 import twenewsbot from "../assets/images/twenews.png";
 import meucelularusado from "../assets/images/meucelularusado.png";
-import geradorDeCertificado from "../assets/images/geradorDeCertificado.png"
+import geradorDeCertificado from "../assets/images/geradorDeCertificado.png";
 
 function StackSpan(props) {
   return (
@@ -66,13 +65,6 @@ function ProjectCard() {
         description="Landing-Page feita para uma industria de móveis planejados."
         thumbnailSrc="https://github.com/allanfernds/bino-moveis/raw/main/img/layout.png"
         link="https://allanfernds.github.io/bino-moveis/"
-        stack={["JavaScript", "HTML5", "CSS3"]}
-      />
-      <Card3
-        heading="Dreams Store"
-        description="E-commerce completo de produtos eletrônicos"
-        thumbnailSrc={dreamsstore}
-        link="https://www.dreamsstorebr.com.br/"
         stack={["JavaScript", "HTML5", "CSS3"]}
       />
       <Card3
