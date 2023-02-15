@@ -1,18 +1,30 @@
 import React, { Component } from "react";
 import SkillsCard from "./SkillsCard";
 import tailwindIcon from "../assets/images/tailwindIcon.png";
-import Slider from "react-slick";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export default class SkillsSection extends Component {
   render() {
-    const settings = {
-      dots: false,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 2,
-      slidesToScroll: 1,
+    const responsive = {
+      superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+      },
+      desktop: {
+        breakpoint: { max: 30000, min: 1024 },
+        items: 5,
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 4,
+      },
+      mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 2,
+      },
     };
-
     return (
       <>
         <div id="skills" className="mb-16">
@@ -24,8 +36,13 @@ export default class SkillsSection extends Component {
             </div>
           </div>
           <div className="px-4 sm:px-0">
-            <div className="grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
-              <Slider {...settings}>
+            <div className=" mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm  lg:max-w-screen-md">
+              <Carousel
+                renderButtonGroupOutside={true}
+                autoPlay={this.props.deviceType !== "mobile" ? true : false}
+                infinite={true}
+                responsive={responsive}
+              >
                 <SkillsCard
                   stack="JavaScript"
                   icon="https://img.icons8.com/ios/512/javascript.png"
@@ -71,7 +88,7 @@ export default class SkillsSection extends Component {
                   stack="Figma"
                   icon="https://img.icons8.com/ios/300/figma--v1.png"
                 />
-              </Slider>
+              </Carousel>
             </div>
           </div>
         </div>
