@@ -36,9 +36,11 @@ export default class SkillsSection extends Component {
             </div>
           </div>
           <div className="px-4 sm:px-0">
-            <div className=" mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm  lg:max-w-screen-md">
+            <div className="mx-auto bg-white rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm  lg:max-w-screen-md">
               <Carousel
-                renderButtonGroupOutside={true}
+                centerMode={true}
+                swipeable={true}
+                autoPlaySpeed={1000}
                 autoPlay={this.props.deviceType !== "mobile" ? true : false}
                 infinite={true}
                 responsive={responsive}
@@ -92,7 +94,7 @@ export default class SkillsSection extends Component {
             </div>
           </div>
         </div>
-        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 "></hr>
       </>
     );
   }
