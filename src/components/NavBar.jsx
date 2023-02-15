@@ -1,14 +1,32 @@
 /* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
+  const [showNavBar, hideNavBar] = useState(false);
+  const [lastScrollTop, setLastScrollTop] = useState(0);
+
+  useEffect(() => {
+    function handleScroll() {
+      const st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop) {
+        hideNavBar(false);
+      } else {
+        hideNavBar(true);
+      }
+      setLastScrollTop(st <= 0 ? 0 : st);
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollTop]);
 
   return (
     <nav
       id="header"
-      className="w-full bg-black text-slate-50 fixed top-0 left-0 "
+      className={`w-full bg-black text-slate-50 fixed top-0 left-0 transition duration-500 ${
+        showNavBar ? "-translate-y-0" : "-translate-y-full"
+      }`}
     >
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>

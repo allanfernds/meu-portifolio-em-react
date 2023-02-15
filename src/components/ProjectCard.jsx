@@ -1,5 +1,4 @@
 import cvmaker from "../assets/images/cvmaker.png";
-import dreamsstore from "../assets/images/dreamsstore.png";
 import twenewsbot from "../assets/images/twenews.png";
 import meucelularusado from "../assets/images/meucelularusado.png";
 import geradorDeCertificado from "../assets/images/geradorDeCertificado.png";
