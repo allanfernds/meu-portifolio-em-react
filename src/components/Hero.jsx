@@ -14,7 +14,8 @@ function Index() {
                 </p>
               </h1>
               <p className="mt-6 text-gray-300 text-center  text-xl">
-                Meu objetivo é melhorar o mundo através da tecnologia
+                "Se te oferecem um lugar em um foguete, não pergunte qual é o
+                assento, apenas embarque." - Sheryl Sandberg
               </p>
             </div>
           </div>
