@@ -2,10 +2,11 @@ import cvmaker from "../assets/images/cvmaker.png";
 import twenewsbot from "../assets/images/twenews.png";
 import meucelularusado from "../assets/images/meucelularusado.png";
 import geradorDeCertificado from "../assets/images/geradorDeCertificado.png";
+import app_de_receita from "../assets/images/app_de_receitas.png";
 
 function StackSpan(props) {
   return (
-    <span className="bg-gray-700 px-1 mr-1 mt-2 inline-block font-medium text-white text-xs rounded-sm">
+    <span className="bg-gray-700 px-1 mr-1 mt-1 inline-block font-medium text-white text-xs rounded-sm">
       {props.content}
     </span>
   );
@@ -20,25 +21,38 @@ function Card3({
   stack,
 }) {
   return (
-    <div className="rounded-lg p-6 shadow-sm bg-slate-50 shadow-indigo-500/40 hover:shadow-xl hover:shadow-blue-500/40">
-      <div className="rounded-lg">
+    <div
+      className="grid grid-rows-2 rounded-lg p-6 shadow-sm bg-slate-50 shadow-indigo-500/40 hover:shadow-xl hover:shadow-blue-500/40"
+      style={{ minHeight: "200px" }}
+    >
+      <div className="rounded-lg row-span-1">
         <a target="blank" href={link}>
           <img
-            className=" w-full cursor-pointer  rounded-lg h-auto"
+            className="hover:scale-110 transition-all cursor-pointer w-full rounded-lg"
             src={thumbnailSrc}
             alt={thumbnailAlt}
           />
         </a>
       </div>
-      <h3 className="pt-5 text-[15px] font-medium text-indigo-600 block">
-        {heading}
-      </h3>
-      <p className="font-normal text-gray-500 cursor-pointer text-sm duration-300 transition mt-2">
-        {description}
-      </p>
-      {stack
-        ? stack.map((item, index) => <StackSpan key={index} content={item} />)
-        : ""}
+      <div className="row-span-1">
+        <h3 className="pt-5 text-[15px] font-medium text-indigo-600 block">
+          {heading}
+        </h3>
+        <p className="font-normal text-gray-500 cursor-pointer text-sm duration-300 transition mt-2">
+          {description}
+        </p>
+      </div>
+      <div className="h-5 flex items-center">
+        {stack
+          ? stack.map((item, index) => (
+              <StackSpan
+                key={index}
+                content={item}
+                className={`ml-1 ${index === 0 ? "ml-0" : ""}`}
+              />
+            ))
+          : ""}
+      </div>
     </div>
   );
 }
@@ -83,10 +97,17 @@ function ProjectCard() {
       />
       <Card3
         heading="Gerador de Certificados"
-        description="Esse é um script em Python que lê uma planilha de Excel com uma lista de nomes e gera certificados para cada nome"
+        description="Esse é um script em Python que lê uma planilha de Excel com uma lista de nomes e gera certificados para cada nome."
         thumbnailSrc={geradorDeCertificado}
         link="https://github.com/allanfernds/gerador-de-certificados"
         stack={["Python", "Pillow", "Pandas"]}
+      />
+      <Card3
+        heading="App de Receitas"
+        description="App de pesquisa de receitas com login, favoritos, bebidas, compartilhamento e marcador de progresso."
+        thumbnailSrc={app_de_receita}
+        link="https://github.com/allanfernds/app-de-receitas"
+        stack={["React", "CSS", "Context API"]}
       />
     </div>
   );
