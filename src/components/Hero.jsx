@@ -10,7 +10,7 @@ function Index() {
                 Desenvolvedor
                 <p className="animate-pulse text-indigo-600 font-semibold text-7xl ">
                   {" "}
-                  Front-End
+                  Full-Stack
                 </p>
               </h1>
               <p className="mt-6 text-gray-300 text-center  text-xl">
