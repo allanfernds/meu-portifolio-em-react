@@ -28,7 +28,9 @@ function Card3({
       <div className="rounded-lg row-span-1">
         <a target="blank" href={link}>
           <img
-            className="hover:scale-110 transition-all cursor-pointer w-full rounded-lg"
+            className="hover:scale-110 transition-all cursor-pointer w-full rounded-lg
+            h-auto 
+            "
             src={thumbnailSrc}
             alt={thumbnailAlt}
           />

@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import alan_fernandes from "../assets/images/alan_fernandes.png";
-import Formations from "./Formations";
-import blackbar from "../assets/images/blackbar.png";
+import React, { Component } from 'react';
+import alan_fernandes from '../assets/images/alan_fernandes.png';
+import Formations from './Formations';
+import blackbar from '../assets/images/blackbar.png';
 
 export default class About extends Component {
   render() {
@@ -18,34 +18,34 @@ export default class About extends Component {
                   SOBRE MIM
                 </h2>
                 <p className="mt-6 text-gray-200">
-                  Eu sou natural de Feira de Santana, Bahia, e tenho cerca de 4
-                  anos de experiência em programação. Além de atuar como
-                  desenvolvedor web freelancer, também dou aulas particulares de
-                  lógica de programação, com ênfase em Python e JavaScript.
-                  Atualmente, sou estudante de desenvolvimento web full-stack na
-                  Trybe.
+                  Olá, sou Alan Fernandes, um Analista de E-commerce com
+                  experiência de 2 anos no setor de eletrônicos. Atualmente,
+                  estou buscando uma nova oportunidade como Desenvolvedor
+                  Fullstack Junior. Estou cursando Desenvolvimento Web Fullstack
+                  na Trybe, onde estou aprimorando minhas habilidades em
+                  JavaScript, TypeScript, Node.js, Python, MySQL e React.
                 </p>
                 <p className="mt-4 text-gray-200">
-                  Minhas paixões incluem jogos online, codificação, criação de
-                  enigmas e leitura. Tenho trabalhado com JavaScript, React,
-                  Node, CSS, HTML e Python. O interesse por tecnologia começou
-                  por um erro que tive quando tentei jogar Minecraft em 2013.
-                  Esse erro me levou a aprender habilidades valiosas como
-                  pesquisar soluções, entender e solucionar erros, e
-                  compartilhar soluções de forma clara.
-                </p>
-                <p className="mt-4 text-gray-200">
-                  Desde então, erros sempre foram bem-vindos na minha jornada
-                  como desenvolvedor, pois eles me permitem aprender e crescer
-                  continuamente. Por mais que eu busque ser um criador de
-                  soluções, sempre encaro os erros como uma oportunidade única
-                  de aprendizado.
+                  Sou apaixonado por resolver problemas e criar soluções
+                  inovadoras. Adoro compartilhar conhecimento e aprender com a
+                  comunidade. Se você está procurando um profissional dedicado,
+                  curioso e com ampla bagagem em programação, vamos nos
+                  conectar!.{' '}
+                  <a
+                    href="https://www.linkedin.com/in/alanfernds/"
+                    alt="linkedin alan fernades"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline text-blue-600 hover:text-blue-400"
+                  >
+                    LinkedIn
+                  </a>
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <img src={blackbar} alt="barra preta" width={"100%"} />
+        <img src={blackbar} alt="barra preta" width={'100%'} />
         <Formations />
       </>
     );
