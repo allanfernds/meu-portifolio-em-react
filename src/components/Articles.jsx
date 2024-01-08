@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import ArticleCard from "./ArticleCard";
+import React, { Component } from 'react';
+import ArticleCard from './ArticleCard';
 
 export default class Articles extends Component {
   render() {
@@ -16,20 +16,20 @@ export default class Articles extends Component {
                 title="Como um erro me levou ao amor pela programação"
                 description="Eu sempre tive fascínio por tecnologia, mas foi um erro que me levou a aprender e amar a programação. Em 2013, quando o YouTube começou a ficar popular na minha região"
                 theme="Programação"
-                data={"fev 01, 2023"}
+                data={'fev 01, 2023'}
                 link="https://medium.com/@alanfernandes.mm/como-um-erro-me-levou-ao-amor-pela-programação-d67b2aaa29da"
               />
               <ArticleCard
                 title="Ciclo de Vida de um Componente em React"
                 description="Ciclos de vida em são conceitos essenciais para quem está se aventurando no React, tendo em vista que com estes conceitos podemos tornar nossas aplicações mais optimizadas"
                 theme="ReactJS"
-                data={"oct 29, 2022"}
+                data={'oct 29, 2022'}
                 link="https://medium.com/@alanfernandes.mm/ciclo-de-vida-de-um-componente-em-react-2076233536b0"
               />
             </div>
           </section>
         </div>
-        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
+        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
       </>
     );
   }

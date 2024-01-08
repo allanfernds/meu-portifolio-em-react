@@ -1,26 +1,23 @@
 function Index() {
   return (
-    <div className="bg-black py-20 overflow-y-hidden">
-      {/* Code block starts */}
-      <dh-component>
-        <div id="hero" className="bg-black pt-20">
-          <div className="container mx-auto flex flex-col items-center py-12 sm:py-24">
-            <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white leading-7 md:leading-10">
-                Desenvolvedor
-                <p className="animate-pulse text-indigo-600 font-semibold text-7xl ">
-                  {" "}
-                  Full-Stack
-                </p>
-              </h1>
-              <p className="mt-6 text-gray-300 text-center  text-xl">
-                "Se te oferecem um lugar em um foguete, não pergunte qual é o
-                assento, apenas embarque." <br /> - Sheryl Sandberg
-              </p>
-            </div>
+    <div className="bg-neutral-900  py-20 overflow-y-hidden">
+      <div id="hero" className="pt-20">
+        <div className="container  flex flex-col items-center py-12 sm:py-24">
+          <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-left flex-col  mb-5 sm:mb-10">
+            <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-left text-white leading-7 md:leading-10 font-archivo">
+              Ajudando empresas a construirem{' '}
+              <span className="animate-bounce text-sky-400">
+                soluções digitais
+              </span>{' '}
+              modernas e de alta qualidade
+            </h1>
+            <p className="mt-6 text-gray-300 text-left w-2/3 text-xl font-archivo font-thin">
+              Automatizo processos, gerencio E-commerces, desenvolvo sistemas e
+              uns sites bonitos
+            </p>
           </div>
         </div>
-      </dh-component>
+      </div>
     </div>
   );
 }

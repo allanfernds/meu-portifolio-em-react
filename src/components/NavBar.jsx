@@ -1,6 +1,6 @@
 /* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -17,15 +17,15 @@ export default function NavBar() {
       }
       setLastScrollTop(st <= 0 ? 0 : st);
     }
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScrollTop]);
 
   return (
     <nav
       id="header"
-      className={`w-full bg-black text-slate-50 fixed top-0 left-0 transition duration-500 ${
-        showNavBar ? "-translate-y-0" : "-translate-y-full"
+      className={`w-full z-10 bg-neutral-900 text-slate-50 fixed top-0 left-0 transition duration-500 ${
+        showNavBar ? '-translate-y-0' : '-translate-y-full'
       }`}
     >
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
@@ -33,9 +33,9 @@ export default function NavBar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#hero">
               <h2 className="text-2xl font-bold">
-                <span className="text-blue-600">{"<"}</span>
+                <span className="text-blue-600">{'<'}</span>
                 Alan Fernandes
-                <span className="text-blue-600">{"/>"}</span>
+                <span className="text-blue-600">{'/>'}</span>
               </h2>
             </a>
             <div className="md:hidden">
@@ -78,28 +78,34 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
+            className={`flex-1 justify-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              navbar ? 'block' : 'hidden'
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#about">Home</a>
+              <li className="relative text-gray-100 group">
+                <a href="#about" className="no-underline">
+                  Profissional
+                  <span className="invisible md:visible absolute w-full h-1 bg-gradient-to-r from-transparent via-sky-400 to-sky-500 bottom-0 left-0 origin-left transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 rounded-2xl"></span>
+                </a>
               </li>
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#formation">Formação</a>
+              <li className="relative text-gray-100 group">
+                <a href="#about" className="no-underline">
+                  Redes sociais
+                  <span className="invisible md:visible absolute w-full h-1 bg-gradient-to-r from-transparent via-sky-400 to-sky-500 bottom-0 left-0 origin-left transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 rounded-2xl"></span>
+                </a>
               </li>
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#articles">Artigos</a>
+              <li className="relative text-gray-100 group">
+                <a href="#about" className="no-underline">
+                  Projetos
+                  <span className="invisible md:visible absolute w-full h-1 bg-gradient-to-r from-transparent via-sky-400 to-sky-500 bottom-0 left-0 origin-left transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 rounded-2xl"></span>
+                </a>
               </li>
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#skills">Skills</a>
-              </li>
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#projects">Portifólio</a>
-              </li>
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#contact">Contato</a>
+              <li className="relative text-gray-100 group">
+                <a href="#about" className="no-underline">
+                  Home
+                  <span className="invisible md:visible absolute w-full h-1 bg-gradient-to-r from-transparent via-sky-400 to-sky-500 bottom-0 left-0 origin-left transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 rounded-2xl"></span>
+                </a>
               </li>
             </ul>
           </div>

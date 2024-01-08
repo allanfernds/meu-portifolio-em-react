@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import SkillsCard from "./SkillsCard";
-import tailwindIcon from "../assets/images/tailwindIcon.png";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import React, { Component } from 'react';
+import SkillsCard from './SkillsCard';
+import tailwindIcon from '../assets/images/tailwindIcon.png';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 export default class SkillsSection extends Component {
   render() {
@@ -41,7 +41,7 @@ export default class SkillsSection extends Component {
                 centerMode={true}
                 swipeable={true}
                 autoPlaySpeed={1000}
-                autoPlay={this.props.deviceType !== "mobile" ? true : false}
+                autoPlay={this.props.deviceType !== 'mobile' ? true : false}
                 infinite={true}
                 responsive={responsive}
               >
@@ -94,7 +94,7 @@ export default class SkillsSection extends Component {
             </div>
           </div>
         </div>
-        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 "></hr>
+        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 "></hr>
       </>
     );
   }

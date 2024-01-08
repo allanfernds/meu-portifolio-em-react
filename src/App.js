@@ -1,14 +1,14 @@
-import About from "./components/About";
-import Hero from './components/Hero'
-import ProjectsSection from "./components/ProjectsSection";
+import About from './components/About';
+import Hero from './components/Hero';
+import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
-import Footer from "./components/Footer";
-import Articles from "./components/Articles";
-import NavBar from "./components/NavBar";
+import Footer from './components/Footer';
+import Articles from './components/Articles';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div>
+    <main>
       <NavBar />
       <Hero />
       <About />
@@ -16,7 +16,7 @@ function App() {
       <SkillsSection />
       <ProjectsSection />
       <Footer />
-    </div>
+    </main>
   );
 }
 

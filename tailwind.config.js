@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ['./src/**/*.{html,js,jsx}'],
   theme: {
     extend: {
-      extend: {
-        fontFamily: {
-          'comforta': ['Comforta', 'sans-serif'],
-        },
+      fontFamily: {
+        comfortaa: ['Comfortaa', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        archivo: ['Archivo', 'sans-serif'],
+      },
     },
+    plugins: [],
   },
-  plugins: [],
-  }
-}
+};

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import FormationCard from "./FormationCard";
+import React, { Component } from 'react';
+import FormationCard from './FormationCard';
 
 export default class Formations extends Component {
   render() {
@@ -27,7 +27,7 @@ export default class Formations extends Component {
             </div>
           </section>
         </div>
-        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
+        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
       </>
     );
   }
