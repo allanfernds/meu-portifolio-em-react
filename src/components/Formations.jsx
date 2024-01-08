@@ -1,33 +1,21 @@
 import React, { Component } from 'react';
-import FormationCard from './FormationCard';
+import VerticalTabs from './VerticalTabs';
 
 export default class Formations extends Component {
   render() {
     return (
       <>
-        <div id="formation" className="flex justify-center ">
-          <section className="lg:max-w-4xl flex-col justify-center content-center">
-            <h2 className="underline decoration-blue-500 text-center pt-5 text-2xl font-bold text-gray-900y md:text-4xl">
-              FORMAÇÃO
+        <section
+          id="formation"
+          className="bg-black py-10 md:flex md:justify-around md:items-center"
+        >
+          <div>
+            <h2 className=" text-left pt-5 pl-4 md:pl-9 text-2xl font-bold text-sky-50 font-archivo md:text-4xl">
+              Experiências <span className="text-sky-500">_</span>
             </h2>
-
-            <div className="p-1 pt-0  md:flex justify-around items-center">
-              <FormationCard
-                instituicao="Trybe"
-                curso="Desenvolvimento Web"
-                descricao="Formação que aborda fundamentos de desenvolvimento
-            web, desenvolvimento, Front-End, Back-End, Ciência da computação, metodologias
-            ágeis e habilidades comportamentais."
-              />
-              <FormationCard
-                instituicao="One Bit Code"
-                curso="Programador FullStack JavaScript"
-                descricao="Curso prático focado em formar Desenvolvedores FullStack para o mercado de trabalho com enfase em Tecnologias como: HTML, CSS, JavaScript, React, NodeJS, TypeScript, SQL, MongoDB e +"
-              />
-            </div>
-          </section>
-        </div>
-        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
+            <VerticalTabs />
+          </div>
+        </section>
       </>
     );
   }

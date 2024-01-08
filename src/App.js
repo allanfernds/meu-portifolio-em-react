@@ -8,7 +8,7 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <main>
+    <main className="bg-extendcolor01-0">
       <NavBar />
       <Hero />
       <About />

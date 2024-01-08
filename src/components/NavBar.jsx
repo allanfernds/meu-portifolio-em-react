@@ -24,18 +24,18 @@ export default function NavBar() {
   return (
     <nav
       id="header"
-      className={`w-full z-10 bg-neutral-900 text-slate-50 fixed top-0 left-0 transition duration-500 ${
+      className={`w-full z-10 bg-extendcolor01-0 text-slate-50 fixed top-0 left-0 transition duration-500 ${
         showNavBar ? '-translate-y-0' : '-translate-y-full'
       }`}
     >
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <div className="justify-around px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#hero">
-              <h2 className="text-2xl font-bold">
-                <span className="text-blue-600">{'<'}</span>
+              <h2 className="text-2xl font-montserrat font-semibold">
+                <span className="text-sky-500">{'<'}</span>
                 Alan Fernandes
-                <span className="text-blue-600">{'/>'}</span>
+                <span className="text-sky-500">{'/>'}</span>
               </h2>
             </a>
             <div className="md:hidden">
