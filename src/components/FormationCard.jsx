@@ -1,23 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { Component } from "react";
-import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  FadeIn,
-  FadeOut,
-  Move,
-  MoveIn,
-  MoveOut,
-  Sticky,
-  StickyIn,
-  StickyOut,
-  Zoom,
-  ZoomIn,
-  ZoomOut,
-} from "react-scroll-motion";
+import React, { Component } from 'react';
 
 export default class FormationCard extends Component {
   render() {

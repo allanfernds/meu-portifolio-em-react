@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        extendcolor01: ['#0d0d0d'],
+        extendcolor01: ['#0b090a'],
       },
       fontFamily: {
         comfortaa: ['Comfortaa', 'sans-serif'],

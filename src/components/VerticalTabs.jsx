@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {
   Tabs,
   TabsHeader,
@@ -7,6 +8,8 @@ import {
 } from '@material-tailwind/react';
 
 export default function VerticalTabs() {
+  const [activeTab, setActiveTab] = useState('html'); // Estado para rastrear a guia ativa
+
   const data = [
     {
       label: 'Farmácia Brito',
@@ -46,18 +49,27 @@ export default function VerticalTabs() {
     },
   ];
 
+  const handleTabClick = (value) => {
+    setActiveTab(value);
+  };
+
   return (
     <Tabs
-      value="html"
+      value={activeTab}
       orientation="vertical"
-      className="my-8 flex flex-col mx-auto md:flex-row md:justify-center   gap-16 px-4 md:px-10 rounded-sm"
+      className="my-8 flex flex-col mx-auto lg:flex-row md:justify-center gap-16 px-4 md:px-10"
     >
-      <TabsHeader className="rounded-sm text-white bg-extendcolor01-0 md:w-48">
+      <TabsHeader className="rounded-sm text-white bg-extendcolor01-0 lg:w-48">
         {data.map(({ label, value }) => (
           <Tab
-            className="bg-extendcolor01-0 py-4 hover:text-sky-400 border-l-4 border-transparent hover:border-sky-400 transition rounded-md flex justify-start pl-8"
+            className={`py-4 hover:text-sky-400 border-l-4 ${
+              activeTab === value
+                ? 'text-sky-400 border-sky-400'
+                : 'border-transparent'
+            } hover:border-sky-400 transition border-spacing-2 flex justify-start pl-8`}
             key={value}
             value={value}
+            onClick={() => handleTabClick(value)}
           >
             <p>{label}</p>
           </Tab>
@@ -75,7 +87,7 @@ export default function VerticalTabs() {
               <span className="font-light text-gray-500">{date}</span>
             </div>
             <h3 className="text-sky-400 font-semibold text-lg">{label}</h3>
-            <p className="font-normal  text-gray-300">{desc}</p>
+            <p className="font-normal text-gray-300 md:w-[600px]">{desc}</p>
           </TabPanel>
         ))}
       </TabsBody>

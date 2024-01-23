@@ -1,68 +1,90 @@
-import React, { Component } from 'react';
 import alan_fernandes from '../assets/images/alan_fernandes.png';
-import Formations from './Formations';
+import Experiences from './Experiences';
 
-import { InstagramLogo, LinkedinLogo, MediumLogo } from '@phosphor-icons/react';
+import {
+  InstagramLogo,
+  LinkedinLogo,
+  MediumLogo,
+  GithubLogo,
+} from '@phosphor-icons/react';
 
-export default class About extends Component {
-  render() {
-    return (
-      <>
-        <div id="about" className=" py-16 px-4 flex justify-center">
-          <div className="container p-6 text-gray-600 md:px-12 xl:px-6 bg-neutral-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 border-neutral-700">
-            <div className="space-y-6 md:flex md:gap-6 md:space-y-0 lg:items-center lg:gap-12">
-              <div className="md:5/12 lg:w-5/12">
-                <img src={alan_fernandes} alt="Alan Fernandes" loading="lazy" />
-              </div>
-              <div className="md:7/12 lg:w-6/12">
-                <h2 className=" text-xl font-archivo text-sky-400">Quem sou</h2>
-                <h1 className=" text-2xl font-archivo text-white mt-2">
+export default function About() {
+  return (
+    <>
+      <div id="about" className="py-16 mx-auto px-4 lg:px-16">
+        <div className="container text-gray-600 p-6 bg-neutral-900 rounded-sm border-2 border-neutral-700 w-3/2">
+          <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
+            <div className="mx-auto xl:w-3/4">
+              <img
+                className="rounded-sm "
+                src={alan_fernandes}
+                alt="Alan Fernandes"
+                loading="lazy"
+              />
+            </div>
+            <div className="md:7/12 lg:w-full flex flex-col justify-between">
+              <div>
+                <h2 className=" text-2xl mt-4 font-archivo text-sky-400">
+                  Quem sou
+                </h2>
+                <h1 className=" text-4xl font-archivo text-white mt-2">
                   Alan Fernandes
                 </h1>
-                <h2 className=" text-lg font-archivo text-sky-50 font-thin">
+                <h2 className="mt-2 text-lg font-archivo text-sky-50 font-thin">
                   Web Developer & E-commerce Manager
                 </h2>
-                <p className="mt-4 text-gray-200">
+                <p className="mt-4 text-lg text-white w-full ">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Cumque magni laudantium nemo dolorum asperiores amet
                   recusandae ipsa quos omnis optio nobis sapiente sequi tempora
-                  nesciunt, minima possimus qui ea eaque!
+                  nesciunt, minima possimus qui ea eaque! laudantium nemo
+                  dolorum asperiores amet recusandae ipsa quos omnis optio nobis
+                  sapiente sequi tempora nesciunt, minima possimus qui ea eaque!
                 </p>
-                <ul className="flex gap-3 mt-8">
-                  <li className="border-2 p-2 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
-                    <a
-                      href="http://instagram.com/_alanfernds/"
-                      target="blank"
-                      alt="icone-instagram"
-                    >
-                      <InstagramLogo size={32} color="#38bdf8" />
-                    </a>
-                  </li>
-                  <li className="border-2 p-2 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
-                    <a
-                      href="http://instagram.com/_alanfernds/"
-                      target="blank"
-                      alt="icone-linkedin"
-                    >
-                      <LinkedinLogo size={32} color="#38bdf8" />
-                    </a>
-                  </li>{' '}
-                  <li className="border-2 p-2 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
-                    <a
-                      href="http://instagram.com/_alanfernds/"
-                      target="blank"
-                      alt="icone-medium"
-                    >
-                      <MediumLogo size={32} color="#38bdf8" />
-                    </a>
-                  </li>
-                </ul>
               </div>
+              <ul className="flex gap-3 mt-8">
+                <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
+                  <a
+                    href="http://instagram.com/_alanfernds/"
+                    target="blank"
+                    alt="icone-instagram"
+                  >
+                    <InstagramLogo size={40} color="#38bdf8" />
+                  </a>
+                </li>
+                <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
+                  <a
+                    href="http://instagram.com/_alanfernds/"
+                    target="blank"
+                    alt="icone-linkedin"
+                  >
+                    <LinkedinLogo size={40} color="#38bdf8" />
+                  </a>
+                </li>
+                <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
+                  <a
+                    href="https://github.com/allanfernds"
+                    target="blank"
+                    alt="icone-medium"
+                  >
+                    <GithubLogo size={40} color="#38bdf8" />
+                  </a>
+                </li>
+                <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
+                  <a
+                    href="http://instagram.com/_alanfernds/"
+                    target="blank"
+                    alt="icone-medium"
+                  >
+                    <MediumLogo size={40} color="#38bdf8" />
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <Formations />
-      </>
-    );
-  }
+      </div>
+      <Experiences />
+    </>
+  );
 }
