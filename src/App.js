@@ -18,7 +18,7 @@ function App () {
       <ProjectsSection />
       <MoreInfo />
       <Services />
-      <Articles />
+      {/* <Articles /> */}
       <ContactForm />
       {/* <SkillsSection /> */}
       <Footer />

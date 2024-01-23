@@ -1,20 +1,17 @@
-import React, { Component } from "react";
-import { FooterCard } from "./FooterCard";
+import React, { Component } from 'react';
+import { FooterCard } from './FooterCard';
 
 export default class Footer extends Component {
   render() {
     return (
       <footer
-        id="contact"
-        className="bg-black py-10 flex flex-col justify-center items-center content-center mt-14"
+        id="footer"
+        className="bg-zinc-900 w-full border- py-10 flex flex-col justify-center items-center content-center mt-14 "
       >
-        <h2 className="underline decoration-blue-500 text-center mb-10 text-2xl font-bold text-white md:text-4xl">
-          CONTATO
-        </h2>
-        <FooterCard />
+        {/* <FooterCard /> */}
         <div>
           <p className="text-gray-400 pt-1">
-            developed by{" "}
+            Desenvolvido por{' '}
             <a
               className="text-blue-500"
               target="blank"

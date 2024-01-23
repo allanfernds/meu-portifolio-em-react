@@ -1,6 +1,5 @@
 import { Wrench, Kanban, UsersThree, Coffee } from '@phosphor-icons/react';
 import { useState } from 'react';
-import oculosVR from '../assets/images/oculos-vr.jpeg';
 
 const ContactForm = () => {
   // Estados para armazenar os dados do formulário
@@ -23,10 +22,13 @@ const ContactForm = () => {
 
   return (
     <div className="container my-24 mx-auto md:px-6">
-      <section className="mb-32">
-        <div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-[url('https://github.com/allanfernds/meu-portifolio-em-react/blob/main/src/assets/images/oculos-vr.jpeg')]"></div>
+      <section className="mb-32 font-archivo">
+        <div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-[url('../assets/images/oculos-vr.jpg')]"></div>
         <div className="container px-6 md:px-12">
           <div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
+            <h2 className="text-gray-50 text-center mb-20 text-3xl">
+              Fale comigo<strong className="text-sky-400">_</strong>
+            </h2>
             <div className="flex flex-wrap">
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
                 <form>
@@ -40,7 +42,6 @@ const ContactForm = () => {
                       onChange={(e) => setName(e.target.value)}
                       required
                     />
-                    <label>Nome</label>
                   </div>
                   <div className="relative mb-6">
                     <input
@@ -52,7 +53,6 @@ const ContactForm = () => {
                       onChange={(e) => setEmail(e.target.value)}
                       required
                     />
-                    <label for="exampleInput91">E-mail</label>
                   </div>
                   <div className="relative mb-6">
                     <textarea
@@ -85,10 +85,10 @@ const ContactForm = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold dark:text-white">
+                        <p className="mb-2  text-lg  text-white">
                           Suporte Técnico
                         </p>
-                        <p className="mb-2 font-light text-white ">
+                        <p className="mb-2 font-thin text-gray-50 ">
                           Te ajudo a resolver tudo
                         </p>
                       </div>
@@ -102,10 +102,8 @@ const ContactForm = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold dark:text-white">
-                          Orçamento
-                        </p>
-                        <p className="mb-2 font-light text-white ">
+                        <p className="mb-2  text-lg  text-white">Orçamento</p>
+                        <p className="mb-2 font-thin text-gray-50 ">
                           Vamos planejar um projeto juntos
                         </p>
                       </div>
@@ -119,10 +117,8 @@ const ContactForm = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold dark:text-white">
-                          Parcerias
-                        </p>
-                        <p className="mb-2 font-light text-white ">
+                        <p className="mb-2  text-lg  text-white">Parcerias</p>
+                        <p className="mb-2 font-thin text-gray-50 ">
                           Vamos de zap
                         </p>
                       </div>
@@ -136,8 +132,10 @@ const ContactForm = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold dark:text-white">Café</p>
-                        <p className="mb-2 font-light text-white ">Você paga</p>
+                        <p className="mb-2  text-lg  text-white">Café</p>
+                        <p className="mb-2 font-thin text-gray-50 ">
+                          Você paga
+                        </p>
                       </div>
                     </div>
                   </div>

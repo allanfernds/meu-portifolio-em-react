@@ -2,7 +2,7 @@ function Card2Row({
   title,
   text,
   icon,
-  iconContainerClassName = "",
+  iconContainerClassName = '',
   hasBottomBorder,
   alt,
   link,
@@ -11,7 +11,7 @@ function Card2Row({
     <a target="blank" href={link}>
       <div
         className={`flex ${
-          hasBottomBorder ? " pb-3 border-b border-[#E3E3E3]" : ""
+          hasBottomBorder ? ' pb-3 border-b border-[#E3E3E3]' : ''
         }`}
       >
         <div
@@ -29,7 +29,7 @@ function Card2Row({
 }
 function FooterCard() {
   return (
-    <div className="flex flex-col justify-center content-center gap-3 p-7 rounded-2xl bg-white">
+    <div className="flex justify-center content-center gap- p-7 rounded-2xl bg-white">
       <Card2Row
         link="tel:75988927560"
         title="Phone"
