@@ -57,12 +57,12 @@ export default function VerticalTabs() {
     <Tabs
       value={activeTab}
       orientation="vertical"
-      className="my-8 flex flex-col mx-auto lg:flex-row md:justify-center gap-16 px-4 md:px-10"
+      className="my-8 flex flex-col mx-auto lg:flex-row md:justify-center gap-16 px-4 md:px-10 lg:w-full"
     >
-      <TabsHeader className="rounded-sm text-white bg-extendcolor01-0 lg:w-48">
+      <TabsHeader className="rounded-sm text-white bg-extendcolor01-0 lg:w-72">
         {data.map(({ label, value }) => (
           <Tab
-            className={`py-4 hover:text-sky-400 border-l-4 ${
+            className={`text-xl py-4 hover:text-sky-400 border-l-4 ${
               activeTab === value
                 ? 'text-sky-400 border-sky-400'
                 : 'border-transparent'

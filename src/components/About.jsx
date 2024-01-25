@@ -15,7 +15,7 @@ export default function About() {
         id="about"
         className=" py-16 flex justify-center items-center px-4 lg:px-16"
       >
-        <div className=" container text-gray-600 p-6 bg-neutral-900 rounded-sm border-2 border-neutral-700 w-3/2">
+        <div className=" container text-gray-600 p-6 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 rounded-sm border-2 border-neutral-700 w-3/2">
           <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
             <div className="mx-auto xl:w-3/4">
               <img

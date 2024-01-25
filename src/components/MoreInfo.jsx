@@ -3,13 +3,13 @@ import { CheckFat } from '@phosphor-icons/react';
 
 function MoreInfo() {
   return (
-    <section className="dark:bg-zinc-900 dark:text-gray-100 font-archivo w-full mt-20">
+    <section className="bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 text-gray-100 font-archivo w-full mt-20">
       <div className="flex flex-col items-center justify-center p-6 py-12  space-y-24 lg:px-8 ">
         <div>
-          <h2 className="text-3xl font-bold tracki text-center sm:text-5xl dark:text-gray-50">
+          <h2 className="text-3xl font-bold tracki text-center sm:text-5xl text-gray-50">
             Modernize seu negócio<span className="text-sky-500">_</span>
           </h2>
-          <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-400">
+          <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-400">
             Três importantes aspectos de trazer tecnologia para a sua empresa
           </p>
         </div>
@@ -20,10 +20,10 @@ function MoreInfo() {
                 <CheckFat size={32} color="#38bdf8" weight="fill" />
               </div>
               <div className="ml-4 ">
-                <h4 className="text-xl font-medium leadi dark:text-gray-50">
+                <h4 className="text-xl font-medium leadi text-gray-50">
                   Automatização de Processos
                 </h4>
-                <p className="mt-2 dark:text-gray-400">
+                <p className="mt-2 text-gray-400">
                   Aumento da eficiência operacional. <br />
                   Redução de erros e retrabalho.
                 </p>
@@ -34,10 +34,10 @@ function MoreInfo() {
                 <CheckFat size={32} color="#38bdf8" weight="fill" />
               </div>
               <div className="ml-4">
-                <h4 className="text-xl font-medium leadi dark: três importantes aspectos de trazer tecnologia para o seu negóciotext-gray-50">
+                <h4 className="text-xl font-medium leadi  três importantes aspectos de trazer tecnologia para o seu negóciotext-gray-50">
                   Análise de Dados
                 </h4>
-                <p className="mt-2 dark:text-gray-400">
+                <p className="mt-2 text-gray-400">
                   Tomada de decisões mais informadas. <br />
                   Antecipação de tendências de mercado.
                 </p>
@@ -48,10 +48,10 @@ function MoreInfo() {
                 <CheckFat size={32} color="#38bdf8" weight="fill" />
               </div>
               <div className="ml-4">
-                <h4 className="text-xl font-medium leadi dark:text-gray-50">
+                <h4 className="text-xl font-medium leadi text-gray-50">
                   Presença Online
                 </h4>
-                <p className="mt-2 dark:text-gray-400">
+                <p className="mt-2 text-gray-400">
                   Ampliação do alcance e visibilidade. <br />
                   Interação direta com clientes e marketing digital eficaz.
                 </p>
