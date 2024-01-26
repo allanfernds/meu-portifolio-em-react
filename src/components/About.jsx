@@ -13,10 +13,10 @@ export default function About() {
     <>
       <div
         id="about"
-        className="container mb-20 flex justify-center items-center px-4 lg:px-16"
+        className="container mb-20 flex justify-center items-center px-2 lg:px-16"
       >
         <div className="container text-gray-600 p-6 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 rounded-sm border-2 border-neutral-900">
-          <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
+          <div className="flex justify-center items-center flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
             <div className=" xl:w-3/4">
               <img
                 className="rounded-sm container"
@@ -45,14 +45,14 @@ export default function About() {
                   sapiente sequi tempora nesciunt, minima possimus qui ea eaque!
                 </p>
               </div>
-              <ul className="flex gap-3 mt-8">
+              <ul className="flex items-center justify-evenly gap-3 mt-8">
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
                   <a
                     href="http://instagram.com/_alanfernds/"
                     target="blank"
                     alt="icone-instagram"
                   >
-                    <InstagramLogo size={40} color="#38bdf8" />
+                    <InstagramLogo size={32} color="#38bdf8" />
                   </a>
                 </li>
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
@@ -61,7 +61,7 @@ export default function About() {
                     target="blank"
                     alt="icone-linkedin"
                   >
-                    <LinkedinLogo size={40} color="#38bdf8" />
+                    <LinkedinLogo size={32} color="#38bdf8" />
                   </a>
                 </li>
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
@@ -70,7 +70,7 @@ export default function About() {
                     target="blank"
                     alt="icone-medium"
                   >
-                    <GithubLogo size={40} color="#38bdf8" />
+                    <GithubLogo size={32} color="#38bdf8" />
                   </a>
                 </li>
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
@@ -79,7 +79,7 @@ export default function About() {
                     target="blank"
                     alt="icone-medium"
                   >
-                    <MediumLogo size={40} color="#38bdf8" />
+                    <MediumLogo size={32} color="#38bdf8" />
                   </a>
                 </li>
               </ul>
