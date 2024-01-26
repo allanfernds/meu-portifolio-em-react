@@ -28,7 +28,7 @@ const ContactForm = () => {
               Fale comigo<strong className="text-sky-400">_</strong>
             </h2>
             <div className=" flex gap-8 flex-row-reverse justify-center items-start flex-wrap">
-              <div className="w-1/2">
+              <div className=" w-full lg:w-1/2">
                 <h3 className="text-sky-400 text-3xl pb-5 font-semibold">
                   Do que você precisa?
                 </h3>
