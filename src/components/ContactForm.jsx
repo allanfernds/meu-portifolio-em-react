@@ -1,4 +1,3 @@
-import { Wrench, Kanban, UsersThree, Coffee } from '@phosphor-icons/react';
 import { useState } from 'react';
 
 const ContactForm = () => {
@@ -21,22 +20,32 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container my-24 mx-auto md:px-6 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900  w-full">
+    <div className="container rounded-md my-24 mx-auto md:px-6 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900  w-full">
       <section className="mb-32 font-archivo">
         <div className="">
           <div className="block rounded-lg ] px-6 py-12  md:py-16 md:px-12">
             <h2 className="text-gray-50 text-center mb-20 text-3xl">
               Fale comigo<strong className="text-sky-400">_</strong>
             </h2>
-            <div className="flex justify-center items-center flex-wrap">
-              <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
+            <div className=" flex gap-8 flex-row-reverse justify-center items-start flex-wrap">
+              <div className="w-1/2">
+                <h3 className="text-sky-400 text-3xl pb-5 font-semibold">
+                  Do que você precisa?
+                </h3>
+                <p className="font-archivo text-gray-400 text-2xl">
+                  Um site? Ou quer automatizar tarefas chatas? Está planejando
+                  organizar um e-commerce? Por favor, descreva aqui a sua
+                  necessidade, e estarei à disposição para ajudar.
+                </p>
+              </div>
+              <div className=" mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
                 <form className="flex flex-col w-full">
                   <div className="relative mb-6">
                     <input
                       type="text"
-                      className="border-b  block min-h-[auto] w-full  bg-transparent py-[0.32rem] px-3 text-white "
+                      className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
                       id="exampleInput90"
-                      placeholder="Nome"
+                      placeholder="Seu Nome"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       required
@@ -45,7 +54,7 @@ const ContactForm = () => {
                   <div className="relative mb-6">
                     <input
                       type="email"
-                      className="border-b block min-h-[auto] w-full  bg-transparent py-[0.32rem] px-3 text-white "
+                      className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 "
                       id="exampleInput91"
                       placeholder="E-mail"
                       value={email}
@@ -56,7 +65,7 @@ const ContactForm = () => {
 
                   <div className="relative mb-6">
                     <textarea
-                      className="border-b block min-h-[auto] w-full bg-transparent py-[0.32rem] px-3 text-white "
+                      className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 "
                       id="exampleFormControlTextarea1"
                       rows="3"
                       placeholder="Como eu posso te ajudar?"
@@ -69,7 +78,7 @@ const ContactForm = () => {
                   <button
                     type="button"
                     onClick={handleMailToClick}
-                    className="bg-gradient-to-l from-sky-600 via-sky-400 to-sky-500 w-full block text-center py-2  rounded-sm text-gray-50 hover:scale-105 ease-out transition-all text-lg p-x2"
+                    className="bg-gradient-to-l from-sky-600 via-sky-400 to-sky-500 w-full block text-center py-2  rounded-lg text-white font-bold border-transparent  hover:border-sky-100 ease-out transition-all text-lg p-x2"
                   >
                     Enviar E-mail
                   </button>
