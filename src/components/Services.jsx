@@ -1,5 +1,7 @@
 import ServiceCard from './ServiceCard';
 import automation from '../assets/images/robo-industrial.png';
+import ecommerce from '../assets/images/e-commerce.png';
+import website from '../assets/images/designer-de-web.png';
 
 function Services() {
   return (
@@ -14,17 +16,17 @@ function Services() {
           <ServiceCard
             icon={automation}
             description="is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem"
-            title="website seo"
+            title="Automação de tarefas"
           />
           <ServiceCard
-            icon={automation}
+            icon={ecommerce}
             description="is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem"
-            title="website seo"
+            title="Gestão de E-commerce"
           />
           <ServiceCard
-            icon={automation}
+            icon={website}
             description="is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem"
-            title="website seo"
+            title="Criação de landing pages"
           />
         </div>
       </div>

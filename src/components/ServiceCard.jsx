@@ -4,12 +4,14 @@ function ServiceCard({ title, icon, description }) {
   return (
     <div class="border border-neutral-800 card text-gray-300  hover:brightness-90  transition-all cursor-pointer group bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 hover:from-black hover:to-neutral-950  m-2 rounded-lg overflow-hidden relative">
       <div class="px-8 py-10">
-        <div class="  relative w-20  mb-4 group-hover:-translate-y-1 group-hover:shadow-cyan-900 transition-all p-3 rounded-br-lg ">
+        <div class="  relative w-28  mb-4 group-hover:-translate-y-1 group-hover:shadow-cyan-900 transition-all p-3 rounded-br-lg ">
           <img src={icon} alt="icone" />
         </div>
-        <div class="uppercase font-bold text-xl ">{title}</div>
+        <div class="uppercase font-bold text-xl lg:h-[56px] whitespace-pre-line">
+          {title}
+        </div>
 
-        <div class="text-gray-400 mt-8 mb-20">
+        <div class="text-gray-400 mt-8 mb-20 ">
           <p>{description}</p>
         </div>
       </div>
