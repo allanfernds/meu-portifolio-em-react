@@ -8,22 +8,20 @@ import {
 } from '@material-tailwind/react';
 
 export default function VerticalTabs() {
-  const [activeTab, setActiveTab] = useState('html'); // Estado para rastrear a guia ativa
+  const [activeTab, setActiveTab] = useState('Farmácia Brito'); // Estado para rastrear a guia ativa
 
   const data = [
     {
       label: 'Farmácia Brito',
-      value: 'html',
+      value: 'Farmácia Brito',
       office: 'Gestor de E-commerce',
       date: 'Jul 2023 - Set 2023 (3 meses)',
-      desc: `It really matters and then like it really doesn't matter.
-     What matters is the people who are sparked by it. And the people
-     who are like offended by it, it doesn't matter.`,
+      desc: `Otimizei o E-commerce da empresa, aprimorando a coesão no design e corrigindo bugs que impactariam a experiência do usuário. Além disso, implementei padrões de cadastro de produtos e criei bots para auxiliar na divulgação de ofertas do site em grupos do Telegram.`,
     },
     {
       label: 'Dreams Store',
-      value: 'react',
-      office: 'Gestor de E-commerce',
+      value: 'Dreams Store',
+      office: 'Gestor de E-commerce E Marketplace',
       date: 'Jul 2023 - Set 2023 (3 meses)',
       desc: `Because it's about motivating the doers. Because I'm here
      to follow my dreams and inspire other people to follow their dreams, too.`,

@@ -15,18 +15,18 @@ function Services() {
         <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
           <ServiceCard
             icon={automation}
-            description="is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem"
+            description="Crio Bots autônomos para realizar tarefas repetitivas, como buscar dados em diferentes sites, enviar e-mails, gerar relatórios e muito mais."
             title="Automação de tarefas"
           />
           <ServiceCard
             icon={ecommerce}
-            description="is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem"
+            description="Criação de Loja Online, gestão de processos voltados a E-commerces e Marketplaces. Venda e receba pagamentos através da Internet."
             title="Gestão de E-commerce"
           />
           <ServiceCard
             icon={website}
-            description="is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem"
-            title="Criação de landing pages"
+            description="Desenvolvedor de Sites, HotSites, Landing-Pages, especialista em HTML, CSS, JavaScript, React, MySql."
+            title="Criação de sites"
           />
         </div>
       </div>
