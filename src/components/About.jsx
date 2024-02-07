@@ -16,7 +16,7 @@ export default function About() {
         className="container mb-20 flex justify-center items-center px-2 lg:px-16"
       >
         <div className="container text-gray-600 p-6 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 rounded-sm border-2 border-neutral-900">
-          <div className="flex justify-center items-center flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
+          <div className="flex justify-center items-center flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
             <div className=" xl:w-3/4">
               <img
                 className="rounded-sm container"
@@ -25,7 +25,7 @@ export default function About() {
                 loading="lazy"
               />
             </div>
-            <div className="md:7/12 lg:w-full flex flex-col justify-between">
+            <div className="md:7/12 lg:w-full flex flex-col justify-evenly">
               <div>
                 <h2 className="text-lg lg:text-2xl mt-4 font-archivo text-sky-400">
                   Quem sou
@@ -45,7 +45,7 @@ export default function About() {
                   sapiente sequi tempora nesciunt, minima possimus qui ea eaque!
                 </p>
               </div>
-              <ul className="flex items-center justify-evenly gap-3 mt-8">
+              <ul className="flex items-center justify-evenly lg:justify-start gap-3 mt-8">
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
                   <a
                     href="http://instagram.com/_alanfernds/"

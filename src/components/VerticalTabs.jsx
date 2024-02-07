@@ -12,28 +12,18 @@ export default function VerticalTabs() {
 
   const data = [
     {
-      label: 'Farmácia Brito',
-      value: 'Farmácia Brito',
-      office: 'Gestor de E-commerce',
-      date: 'Jul 2023 - Set 2023 (3 meses)',
-      desc: `Otimizei o E-commerce da empresa, aprimorando a coesão no design e corrigindo bugs que impactariam a experiência do usuário. Além disso, implementei padrões de cadastro de produtos e criei bots para auxiliar na divulgação de ofertas do site em grupos do Telegram.`,
-    },
-    {
-      label: 'Dreams Store',
-      value: 'Dreams Store',
+      label: 'Dreams Club',
+      value: 'Dreams Club',
       office: 'Gestor de E-commerce E Marketplace',
       date: 'Jul 2023 - Set 2023 (3 meses)',
-      desc: `Because it's about motivating the doers. Because I'm here
-     to follow my dreams and inspire other people to follow their dreams, too.`,
+      desc: `Trabalhei na gestão e criação das plataformas de venda da empresa, implementando padrões de cadastro de produtos e otimizando a logística de entrega.`,
     },
     {
-      label: 'Vue',
-      value: 'vue',
-      office: 'Gestor de E-commerce',
+      label: 'Farmácia Brito',
+      value: 'Farmácia Brito',
+      office: 'Desenvolvedor ',
       date: 'Jul 2023 - Set 2023 (3 meses)',
-      desc: `We're not always in the position that we want to be at.
-     We're constantly growing. We're constantly making mistakes. We're
-     constantly trying to express ourselves and actualize our dreams.`,
+      desc: `Durante dois meses, como Gestor de E-commerce na Farmácia Brito, integrei conhecimento em desenvolvimento web com o comércio online. Criei bots em Python para automatizar ofertas em canais de comunicação, e ferramentas de CRM que gerenciaram comunicação direta com clientes, resultando em um aumento de vendas de 19,20%.`,
     },
     {
       label: 'Teste',
@@ -41,9 +31,9 @@ export default function VerticalTabs() {
       office: 'Gestor de E-commerce',
       date: 'Jul 2023 - Set 2023 (3 meses)',
       desc: `We're not always in the position that we want to be at.
-    We're constantly growing. We're constantly making mistakes. We're
-    constantly trying to express ourselves and actualize our dreams.making mistakes. We're
-    constantly trying to express ourselves and actualize our dreams`,
+      We're constantly growing. We're constantly making mistakes. We're
+      constantly trying to express ourselves and actualize our dreams.making mistakes. We're
+      constantly trying to express ourselves and actualize our dreams`,
     },
   ];
 

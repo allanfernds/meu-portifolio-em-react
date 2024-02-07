@@ -11,7 +11,7 @@ function ServiceCard({ title, icon, description }) {
           {title}
         </div>
 
-        <div class="text-gray-400 mt-8 mb-20 lg:h-[76px]">
+        <div class="text-gray-400 mt-8 text-lg mb-20 lg:h-[76px]">
           <p>{description}</p>
         </div>
       </div>

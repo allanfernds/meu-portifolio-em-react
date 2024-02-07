@@ -56,7 +56,7 @@ const ContactForm = () => {
                       type="email"
                       className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 "
                       id="exampleInput91"
-                      placeholder="E-mail"
+                      placeholder="Seu E-mail"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required

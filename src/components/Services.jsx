@@ -5,7 +5,7 @@ import website from '../assets/images/designer-de-web.png';
 
 function Services() {
   return (
-    <section className="py-12  text-gray-100 sm:py-12 lg:py-16 w-full font-archivo">
+    <section className="py-12 px-4 lg:px-0  text-gray-100 sm:py-12 lg:py-16 w-full font-archivo">
       <div className="flex flex-col justify-center items-center">
         <div className="max-w-xl mx-auto text-center xl:max-w-2xl">
           <h2 className="text-3xl font-archivo leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">

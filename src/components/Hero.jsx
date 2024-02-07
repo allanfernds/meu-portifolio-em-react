@@ -2,7 +2,7 @@ import minhaLogo from '../assets/images/alanlogo.svg';
 
 function Index() {
   return (
-    <div className="py-20 overflow-y-hidden">
+    <div className="py-20 overflow-y-hidden lg:py-40">
       <div id="hero" className="pt-20 flex">
         <div className="container flex flex-col items-center py-12 sm:py-24">
           <div className="w-11/12 sm:w-2/3 flex justify-center items-center md:items-start flex-col mb-5 sm:mb-10 gap-5">
@@ -18,7 +18,7 @@ function Index() {
               uns sites bonitos
             </p>
             <a
-              className="bg-gradient-to-l from-sky-600 via-sky-400 to-sky-500 w-[150px] block text-center py-2  rounded-sm text-gray-50 hover:scale-105 ease-out transition-all text-lg p-x2"
+              className="bg-gradient-to-l bg-sky-600 w-[150px] block text-center py-2  rounded-sm text-gray-50 hover:scale-105 ease-out transition-all text-lg p-x2"
               href="http://instagram.com/_alanfernds/"
               target="blank"
             >
