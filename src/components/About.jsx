@@ -13,19 +13,19 @@ export default function About() {
     <>
       <div
         id="about"
-        className="container mb-20 flex justify-center items-center px-2 lg:px-16"
+        className="container mb-20 flex justify-center items-center px-2 "
       >
-        <div className="container text-gray-600 p-6 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 rounded-sm border-2 border-neutral-900">
+        <div className="container text-gray-600 p-6 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 rounded-sm border-2 border-neutral-900 max-w-[1008px]">
           <div className="flex justify-center items-center flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
-            <div className=" xl:w-3/4">
+            <div className="">
               <img
-                className="rounded-sm container"
+                className="rounded-sm container max-w-[950px]"
                 src={alan_fernandes}
                 alt="Alan Fernandes"
                 loading="lazy"
               />
             </div>
-            <div className="md:7/12 lg:w-full flex flex-col justify-evenly">
+            <div className="md:7/12 lg:w-full flex flex-col">
               <div>
                 <h2 className="text-lg lg:text-2xl mt-4 font-archivo text-sky-400">
                   Quem sou
@@ -37,15 +37,12 @@ export default function About() {
                   Web Developer & E-commerce Manager
                 </h2>
                 <p className="mt-4 font-extralight text-lg text-white w-full ">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Cumque magni laudantium nemo dolorum asperiores amet
-                  recusandae ipsa quos omnis optio nobis sapiente sequi tempora
-                  nesciunt, minima possimus qui ea eaque! laudantium nemo
-                  dolorum asperiores amet recusandae ipsa quos omnis optio nobis
-                  sapiente sequi tempora nesciunt, minima possimus qui ea eaque!
+                  Sou Alan Fernandes Atualmente sou freelancer como
+                  Desenvolvedor. Desenvolvo Páginas web modernas, E-commerces e
+                  Robôs para automação de processos. Tenho 23 anos e sou natural de Feira de Santana BA
                 </p>
               </div>
-              <ul className="flex items-center justify-evenly lg:justify-start gap-3 mt-8">
+              <ul className="flex items-center  lg:justify-start gap-3 mt-8">
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
                   <a
                     href="http://instagram.com/_alanfernds/"
