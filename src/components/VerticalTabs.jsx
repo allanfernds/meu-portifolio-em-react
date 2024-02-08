@@ -12,18 +12,18 @@ export default function VerticalTabs() {
 
   const data = [
     {
+      label: 'Farmácia Brito',
+      value: 'Farmácia Brito',
+      office: 'Gestor e E-commcerce',
+      date: 'Jul 2023 - Set 2023 (3 meses)',
+      desc: `Durante meu período na Farmácia Brito, unifiquei meus conhecimentos em E-commerce e programação para desenvolver ferramentas que alavancassem as vendas. Atualmente, a empresa conta com um robô de ofertas criado por mim. Diariamente, esse robô envia automaticamente as ofertas do site da empresa para um grupo no Telegram. resultando em um aumento de vendas de 19,20%.`,
+    },
+    {
       label: 'Dreams Club',
       value: 'Dreams Club',
       office: 'Gestor de E-commerce E Marketplace',
       date: 'Jul 2023 - Set 2023 (3 meses)',
       desc: `Trabalhei na gestão e criação das plataformas de venda da empresa, implementando padrões de cadastro de produtos e otimizando a logística de entrega.`,
-    },
-    {
-      label: 'Farmácia Brito',
-      value: 'Farmácia Brito',
-      office: 'Desenvolvedor ',
-      date: 'Jul 2023 - Set 2023 (3 meses)',
-      desc: `Durante dois meses, como Gestor de E-commerce na Farmácia Brito, integrei conhecimento em desenvolvimento web com o comércio online. Criei bots em Python para automatizar ofertas em canais de comunicação, e ferramentas de CRM que gerenciaram comunicação direta com clientes, resultando em um aumento de vendas de 19,20%.`,
     },
     {
       label: 'Teste',
