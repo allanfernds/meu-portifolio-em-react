@@ -22,3 +22,14 @@
 ::-webkit-scrollbar-thumb:hover {
  background: #0588ca;
 }
+
+::selection {
+  background-color: #0278b3;
+  color: rgb(255, 255, 255);
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}

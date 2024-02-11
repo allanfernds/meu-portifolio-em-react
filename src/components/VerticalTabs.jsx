@@ -16,7 +16,7 @@ export default function VerticalTabs() {
       value: 'Farmácia Brito',
       office: 'Gestor e E-commcerce',
       date: 'Jul 2023 - Set 2023 (3 meses)',
-      desc: `Durante meu período na Farmácia Brito, unifiquei meus conhecimentos em E-commerce e programação para desenvolver ferramentas que alavancassem as vendas. Atualmente, a empresa conta com um robô de ofertas criado por mim. Diariamente, esse robô envia automaticamente as ofertas do site da empresa para um grupo no Telegram. resultando em um aumento de vendas de 19,20%.`,
+      desc: `Unifiquei minhas habilidades em E-commerce e programação para desenvolver ferramentas que alavancassem as vendas. Atualmente, a empresa conta com um robô de ofertas criado por mim. Diariamente, esse robô envia automaticamente as ofertas do site da empresa para um grupo no Telegram.`,
     },
     {
       label: 'Dreams Club',
@@ -45,7 +45,7 @@ export default function VerticalTabs() {
     <Tabs
       value={activeTab}
       orientation="vertical"
-      className="my-8 flex flex-col mx-auto lg:flex-row md:justify-center gap-16 px-4 md:px-10 lg:w-full"
+      className="my-8 flex flex-col mx-auto lg:flex-row md:justify-center gap-16 lg:px-4 md:px-10 lg:w-full"
     >
       <TabsHeader className="rounded-sm text-white bg-extendcolor01-0 lg:w-72">
         {data.map(({ label, value }) => (

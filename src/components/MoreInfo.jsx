@@ -6,7 +6,7 @@ function MoreInfo() {
     <section className="bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 text-gray-100 font-archivo w-full mt-20">
       <div className="flex flex-col items-center justify-center p-6 py-12  space-y-24 lg:px-8 ">
         <div>
-          <h2 className="text-3xl font-bold tracki text-center sm:text-5xl text-gray-50">
+          <h2 className=" text-center pt-5 pl-4 md:pl-9 text-2xl font-bold text-sky-50 font-archivo md:text-4xl">
             Modernize seu negócio<span className="text-sky-500">_</span>
           </h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-400">

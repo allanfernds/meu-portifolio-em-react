@@ -19,6 +19,7 @@ export default function About() {
           <div className="flex justify-center items-center flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
             <div className="">
               <img
+              draggable="false"
                 className="rounded-sm container max-w-[950px]"
                 src={alan_fernandes}
                 alt="Alan Fernandes"

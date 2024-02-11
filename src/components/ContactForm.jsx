@@ -20,19 +20,19 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container rounded-md my-24 mx-auto md:px-6 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900  w-full">
+    <div id='contact' className="container px-8 rounded-md my-24 mb-0  mx-auto md:px-6 py-16 bg-gradient-to-tl from-extendcolor01-0 to-neutral-900  w-full">
       <section className="mb-32 font-archivo">
         <div className="">
-          <div className="block rounded-lg ] px-6 py-12  md:py-16 md:px-12">
-            <h2 className="text-gray-50 text-center mb-20 text-3xl">
+          <div className="block rounded-lg ">
+            <h2 className=" text-center pt-5 pl-4 md:pl-9 text-3xl mb-10 font-bold text-sky-50 font-archivo md:text-4xl lg:mb-32">
               Fale comigo<strong className="text-sky-400">_</strong>
             </h2>
             <div className=" flex gap-8 flex-row-reverse justify-center items-start flex-wrap">
               <div className=" w-full lg:w-1/2">
-                <h3 className="text-sky-400 text-3xl pb-5 font-semibold">
+                <h3 className="text-sky-400 text-3xl pb-2  font-archivo font-semibold">
                   Do que você precisa?
                 </h3>
-                <p className="font-archivo text-gray-400 text-2xl">
+                <p className="font-archivo text-gray-300 text-lg text-justify lg:text-left lg:text-2xl">
                   Um site? Ou quer automatizar tarefas chatas? Está planejando
                   organizar um e-commerce? Por favor, descreva aqui a sua
                   necessidade, e estarei à disposição para ajudar.
