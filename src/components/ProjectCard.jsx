@@ -5,17 +5,18 @@ function ProjectCard({ title, description, link }) {
         <span class="absolute left-0 top-0 h-5 w-full  bg-sky-500 transition-all duration-300 group-hover:scale-[30]"></span>
         <div class="relative z-10 mx-auto max-w-md">
           <div class="space-y-6 pt-5 text-base leading-7 text-gray-50 transition-all duration-300 group-hover:text-white/90">
-            <h2 className="text-2xl font-bold">{title}</h2>
-            <p className="text-gray-300 h-20 group-hover:text-white">
+            <h2 className="text-2xl font-bold font-archivo">{title}<span className="text-sky-500">.</span> </h2>
+            <p className="text-gray-300 h-20 text-xl group-hover:text-white whitespace-normal">
               {description}
             </p>
           </div>
           <div className="pt-5 text-base font-semibold leading-7">
             <p className=" font-bold">
               <a
+                target="_blank"
                 href={link}
                 alt={title}
-                className="text-sky-500 text-lg transition-all duration-300 group-hover:text-white"
+                className="text-sky-500 text-lg transition-all duration-300 group-hover:text-white" rel="noreferrer"
               >
                 Visualizar
               </a>

@@ -11,21 +11,21 @@ export default function ProjectsSection() {
         </div>
         <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
           <ProjectCard
-            title="Lorem Ipsum"
-            description="Um criador de curriculos que converte dados do usuário em um CV em PDF ja formatado."
-            link="https://easy-cv-xi.vercel.app/"
+            title="Dreams Club"
+            description="Um site para um programa de Cashback"
+            link="https://club.dreamsparts.com.br/"
           />
           <ProjectCard
-            title="Lorem Ipsum"
-            description="Página de login feita em React e estilizada com TailWind."
-            link="https://github.com/allanfernds/poupapig"
+            title="Grupo de Ofertas"
+            description="Robô de grupo de ofertas para E-commerces"
+            link="https://t.me/+l08dlX7748hmMTI5"
           />
           <ProjectCard
-            title="Lorem Ipsum"
-            description="Landing-Page feita para uma industria de móveis planejados."
-            link="https://allanfernds.github.io/bino-moveis/"
+            title="Be The Law"
+            description="Landing-Page feita para um curso de inglês instrumental"
+            link="https://be-the-law.web.app/"
           />
-          <ProjectCard
+          {/* <ProjectCard
             title="Lorem Ipsum"
             description="Um chatbot que busca notícias do Twitter e envia para o Telegram."
             link="https://t.me/TweNewsBot"
@@ -34,7 +34,7 @@ export default function ProjectsSection() {
             title="Lorem Ipsum"
             description="Sistema de precificação de smartphones usados."
             link="https://meucelularusado.com.br/"
-          />
+          /> */}
         </div>
       </div>
     </section>

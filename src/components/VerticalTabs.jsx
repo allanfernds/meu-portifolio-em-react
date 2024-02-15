@@ -45,7 +45,7 @@ export default function VerticalTabs() {
     <Tabs
       value={activeTab}
       orientation="vertical"
-      className="my-8 flex flex-col mx-auto lg:flex-row md:justify-center gap-16 lg:px-4 md:px-10 lg:w-full"
+      className="my-8 flex flex-col mx-auto lg:h-[200px] lg:flex-row md:justify-center gap-16 lg:px-4 md:px-10 lg:w-full"
     >
       <TabsHeader className="rounded-sm text-white bg-extendcolor01-0 lg:w-72">
         {data.map(({ label, value }) => (
