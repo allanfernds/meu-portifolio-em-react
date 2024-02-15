@@ -8,7 +8,7 @@ import { List, X } from '@phosphor-icons/react';
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(true);
-  const [showNavBar, hideNavBar] = useState(false);
+  const [showNavBar, hideNavBar] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
 
   useEffect(() => {
@@ -42,8 +42,8 @@ export default function NavBar() {
                 src={minhaLogo02}
                 alt="logo alan fernandes"
               />
-              <h2 className="font-bold text-sky-200 text-base leading-4 lg:text-xl lg:leading-6  font-comfortaa ">
-                Alan <br /> Fernandes
+              <h2 className="font-bold text-sky-50 text-base leading-4 lg:text-xl lg:leading-6  font-comfortaa ">
+                Alan<br />Fernandes
               </h2>
             </a>
             <div className="md:hidden transition-all">

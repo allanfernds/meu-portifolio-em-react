@@ -19,10 +19,10 @@ export default function VerticalTabs() {
       desc: `Unifiquei minhas habilidades em E-commerce e programação para desenvolver ferramentas que alavancassem as vendas. Atualmente, a empresa conta com um robô de ofertas criado por mim. Diariamente, esse robô envia automaticamente as ofertas do site da empresa para um grupo no Telegram.`,
     },
     {
-      label: 'Dreams Club',
-      value: 'Dreams Club',
+      label: 'Dreams Store',
+      value: 'Dreams Store',
       office: 'Gestor de E-commerce E Marketplace',
-      date: 'Jul 2023 - Set 2023 (3 meses)',
+      date: 'Fev 2021 - Fev 2022 (1 ano)',
       desc: `Trabalhei na gestão e criação das plataformas de venda da empresa, implementando padrões de cadastro de produtos e otimizando a logística de entrega.`,
     },
     {
