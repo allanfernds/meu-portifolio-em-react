@@ -28,7 +28,7 @@ export default function NavBar() {
   return (
     <nav
       id="header"
-      className={`w-full z-[90] bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 lg:bg-extendcolor01-0 text-slate-50 fixed top-0 left-0 transition duration-500 ${
+      className={`w-full z-[90] bg-neutral-900 lg:bg-extendcolor01-0 text-slate-50 fixed top-0 left-0 transition duration-500 ${
         showNavBar ? '-translate-y-0' : '-translate-y-full'
       }`}
     >
@@ -65,7 +65,7 @@ export default function NavBar() {
           >
             <ul className="items-end justify-end font-bold space-y-8 md:flex md:space-x-6 text-center md:space-y-0 bg-transparent font-comfortaa">
 
-              <li className="relative text-gray-100 ">
+              <li className="relative text-gray-100 group">
                 <a onClick={() => setNavbar(false)} href="#projects" className="no-underline">
                   Projetos
                   <span className="invisible md:visible absolute w-full h-1 bg-gradient-to-r from-transparent via-sky-400 to-sky-500 bottom-0 left-0 origin-left transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 rounded-2xl"></span>
