@@ -47,7 +47,7 @@ export default function NavBar() {
               </h2>
             </a>
             <div className="md:hidden transition-all">
-              <button onClick={() => setNavbar(!navbar)}>
+              <button alt="abrir e fechar menu" onClick={() => setNavbar(!navbar)}>
                 {navbar ? (
                   <X size={32} color="#38bdf8" weight="bold" />
                 ) : (

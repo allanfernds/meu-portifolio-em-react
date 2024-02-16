@@ -18,16 +18,17 @@ function Index() {
               uns sites bonitos
             </p>
             <a
-              className="bg-gradient-to-l bg-sky-600 w-[150px] block mt-2 text-center py-2  rounded-sm text-gray-50 hover:scale-105 ease-out transition-all text-lg p-x2"
+              className="bg-gradient-to-l from-sky-600 to-blue-500 w-[150px] block mt-2 text-center py-2 rounded-sm text-white hover:scale-105 ease-out transition-all text-lg px-2"
               href="http://instagram.com/_alanfernds/"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               Instagram
             </a>
           </div>
         </div>
         <figure className="hidden w-[900px] md:block">
-          <img src={minhaLogo} alt="logo alan fernandes" draggable="false" />
+          <img src={minhaLogo} alt="logo alan fernandes" loading="lazy" draggable="false" />
         </figure>
       </div>
     </div>

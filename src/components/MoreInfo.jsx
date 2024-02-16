@@ -6,9 +6,9 @@ function MoreInfo() {
     <section className="bg-gradient-to-tl from-extendcolor01-0 to-neutral-900 text-gray-100 font-archivo w-full mt-20">
       <div className="flex flex-col items-center justify-center p-6 py-12  space-y-24 lg:px-8 ">
         <div>
-          <h2 className=" text-center pt-5 pl-4 md:pl-9 text-2xl font-bold text-sky-50 font-archivo md:text-4xl">
+          <h1 className=" text-center pt-5 pl-4 md:pl-9 text-2xl font-bold text-sky-50 font-archivo md:text-4xl">
             Modernize seu negócio<span className="text-sky-500">_</span>
-          </h2>
+          </h1>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-400">
             Três importantes aspectos de trazer tecnologia para a sua empresa
           </p>
@@ -20,9 +20,9 @@ function MoreInfo() {
                 <CheckFat size={32} color="#38bdf8" weight="fill" />
               </div>
               <div className="ml-4 ">
-                <h4 className="text-xl font-medium leadi text-gray-50">
+                <h2 className="text-xl font-medium leadi text-gray-50">
                   Automatização de Processos
-                </h4>
+                </h2>
                 <p className="mt-2 text-gray-400">
                   Aumento da eficiência operacional. <br />
                   Redução de erros e retrabalho.
@@ -34,9 +34,9 @@ function MoreInfo() {
                 <CheckFat size={32} color="#38bdf8" weight="fill" />
               </div>
               <div className="ml-4">
-                <h4 className="text-xl font-medium leadi  três importantes aspectos de trazer tecnologia para o seu negóciotext-gray-50">
+                <h3 className="text-xl font-medium leadi  três importantes aspectos de trazer tecnologia para o seu negóciotext-gray-50">
                   Análise de Dados
-                </h4>
+                </h3>
                 <p className="mt-2 text-gray-400">
                   Tomada de decisões mais informadas. <br />
                   Antecipação de tendências de mercado.

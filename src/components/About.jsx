@@ -1,4 +1,4 @@
-import alan_fernandes from '../assets/images/alan_fernandes.png';
+import alan_fernandes from '../assets/images/alan_fernandes.webp';
 import Experiences from './Experiences';
 
 import {
@@ -19,7 +19,7 @@ export default function About() {
           <div className="flex justify-center items-center flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row lg:items-stretch md:gap-6 lg:gap-12 flex-wrap md:flex-nowrap">
             <div className="">
               <img
-              draggable="false"
+                draggable="false"
                 className="rounded-sm container max-w-[950px]"
                 src={alan_fernandes}
                 alt="Alan Fernandes"
@@ -40,12 +40,14 @@ export default function About() {
                 <p className="mt-4 font-extralight text-lg text-white w-full ">
                   Sou Alan Fernandes Atualmente sou freelancer como
                   Desenvolvedor. Desenvolvo Páginas web modernas, E-commerces e
-                  Robôs para automação de processos. Tenho 23 anos e sou natural de Feira de Santana BA
+                  Robôs para automação de processos. Tenho 23 anos e sou natural
+                  de Feira de Santana BA
                 </p>
               </div>
               <ul className="flex items-center  lg:justify-start gap-3 mt-8">
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
                   <a
+                    aria-label="Me siga no instagram"
                     href="http://instagram.com/_alanfernds/"
                     target="blank"
                     alt="icone-instagram"
@@ -55,7 +57,8 @@ export default function About() {
                 </li>
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
                   <a
-                    href="http://instagram.com/_alanfernds/"
+                    aria-label="Me siga no linkedin"
+                    href="https://www.linkedin.com/in/alanfernds/"
                     target="blank"
                     alt="icone-linkedin"
                   >
@@ -64,7 +67,8 @@ export default function About() {
                 </li>
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
                   <a
-                    href="https://github.com/allanfernds"
+                    aria-label="Me siga no Medium"
+                    href="https://medium.com/@alanfernandes.mm"
                     target="blank"
                     alt="icone-medium"
                   >
@@ -73,7 +77,8 @@ export default function About() {
                 </li>
                 <li className="border-2 p-4 rounded-md bg-extendcolor01-0 border-neutral-700 hover:border-sky-500 hover:scale-105 transition">
                   <a
-                    href="http://instagram.com/_alanfernds/"
+                    aria-label="Me siga no Githun"
+                    href="https://github.com/allanfernds/"
                     target="blank"
                     alt="icone-medium"
                   >

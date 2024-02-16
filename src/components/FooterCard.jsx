@@ -17,7 +17,7 @@ function Card2Row({
         <div
           className={`hover:shadow-xl hover:shadow-blue-500/40 flex h-10 w-10 min-w-[2.5rem] min-h-[2.5rem] items-center justify-center rounded-lg shadow-md p-1 ${iconContainerClassName}`}
         >
-          <img src={icon} alt={alt} />
+          <img loading="lazy" src={icon} alt={alt} />
         </div>
         <div className="text-left ml-2.5">
           <p className="text-xs text-gray-600">{title}</p>
