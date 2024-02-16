@@ -24,8 +24,8 @@
 }
 
 ::selection {
-  background-color: #0278b3;
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(79, 103, 146);
 }
 
 @layer base {
