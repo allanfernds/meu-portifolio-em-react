@@ -25,16 +25,6 @@ export default function VerticalTabs() {
       date: 'Fev 2021 - Fev 2022 (1 ano)',
       desc: `Trabalhei na gestão e criação das plataformas de venda da empresa, implementando padrões de cadastro de produtos e otimizando a logística de entrega.`,
     },
-    {
-      label: 'Teste',
-      value: 'Teste',
-      office: 'Gestor de E-commerce',
-      date: 'Jul 2023 - Set 2023 (3 meses)',
-      desc: `We're not always in the position that we want to be at.
-      We're constantly growing. We're constantly making mistakes. We're
-      constantly trying to express ourselves and actualize our dreams.making mistakes. We're
-      constantly trying to express ourselves and actualize our dreams`,
-    },
   ];
 
   const handleTabClick = (value) => {
